@@ -1,0 +1,19 @@
+.anh1{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.danhsach{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.sanpham{
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0 8px 8px gray;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}

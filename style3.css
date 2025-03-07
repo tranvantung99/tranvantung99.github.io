@@ -1,0 +1,16 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+.menu{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+.menu:hover{
+    background-color: gray;
+    border-radius: 5px;
+}

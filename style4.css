@@ -1,0 +1,25 @@
+.container{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px grey;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+label{
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+button{
+    background-color: green;
+    border: none;
+    color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   height: 100vh;
+}

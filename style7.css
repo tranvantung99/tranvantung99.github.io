@@ -1,0 +1,35 @@
+* {
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header {
+    background-color: #FFEB99;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #E5C47E;
+}
+.main {
+    display: flex;
+    flex: 1;
+}
+.sidebar {
+    background-color: #FFCCCC;
+    padding: 20px;
+    width: 20%;
+    border: 1px solid #E5A5A5;
+    text-align: center;
+}
+.content {
+    background-color: #CCFFCC;
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #A5E5A5;
+    text-align: center;
+}
