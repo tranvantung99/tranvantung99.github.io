@@ -1,0 +1,41 @@
+body{
+    background-color: whitesmoke;
+    font-family: system-ui;
+}
+.container{ 
+    margin: auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 40% 30%;
+    column-gap: 30%;
+    row-gap: 30px;
+
+}
+.line::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin: 10px auto;
+}
+.container1{
+    margin: auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 30% 10%;
+    column-gap: 60%;
+    row-gap: 30px;
+
+}
+.text{
+    opacity: 0.5;
+}
+.container2{
+    margin: auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    column-gap: 10%;
+    row-gap: 30px;
+}
